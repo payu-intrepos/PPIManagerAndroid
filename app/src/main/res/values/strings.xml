@@ -1,0 +1,16 @@
+<resources>
+    <string name="payu_app_name">SampleApp</string>
+    <string name="open_cards">Open Cards</string>
+    <string name="enter_wallet_identifier">Enter wallet identifier</string>
+    <string name="enter_urn">Enter URN</string>
+    <string name="enter_request_id">Enter Request ID</string>
+    <string name="enter_phone_no">Enter phone number</string>
+    <string name="enter_redirect_url">Enter redirect url</string>
+    <string name="enter_salt">Enter salt</string>
+    <string name="enter_key">Enter key</string>
+    <string name="prod_or_test">prod / test</string>
+    <string name="select_environment">Select Environment</string>
+    <string name="test">Test</string>
+    <string name="production">Production</string>
+    <string name="enter_details">Enter details</string>
+</resources>

@@ -1,0 +1,8 @@
+def dir = new File("${rootProject.projectDir}")
+dir.eachFile(groovy.io.FileType.DIRECTORIES){ file ->
+    File gradleBuild = new File("${file.path}/build.gradle")
+    File gradleBuildKTS = new File("${file.path}/build.gradle.kts")
+    if(!file.name.startsWith(".") && (gradleBuild.exists() || gradleBuildKTS.exists())){
+        include ":${file.name}"
+    }
+}
