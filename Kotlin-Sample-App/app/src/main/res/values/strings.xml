@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">PayUPPISDKSample</string>
     <string name="payu_app_name">SampleApp</string>
     <string name="open_cards">Open Cards</string>
     <string name="enter_wallet_identifier">Enter wallet identifier</string>
